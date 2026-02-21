@@ -1,6 +1,6 @@
 import torch
 from torch import nn
-from encoder.codec import VocosBackbone
+from codec.encoder.codec import VocosBackbone
 
 
 class SimpleDecoder(nn.Module):
@@ -9,7 +9,7 @@ class SimpleDecoder(nn.Module):
         n_mels=50,
         encoder_dim=768,
         bottleneck_channels=5,
-        num_layers=8,
+        num_layers=8,   
         intermediate_dim=None,
         upsample_scale=4,
         dw_kernel=5,
