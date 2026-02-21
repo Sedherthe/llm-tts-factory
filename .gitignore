@@ -1,0 +1,6 @@
+__pycache__/
+test.py
+*.json
+*.pth
+dist/
+*.egg-info/
